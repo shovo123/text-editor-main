@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind link added  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/d17e674093.js" crossorigin="anonymous"></script>
+</head>
+<body id="d" class="bg-gray-100">
+    <div class="h-screen">
+        <h1 class="text-4xl font-semibold text-center py-3">Welcome to Our<span class="text-red-500">Text Editor</span></h1>
+        <div class="bg-white w-9/12 mx-auto h-5/6 p-3">
+            <div class="grid grid-cols-3 items-center h-1/5">
+                <div>
+                    <button id="bold" class="m-2"><i class="fa-solid fa-bold p-2"></i></button>
+                    <button id="italic" class="m-2"><i class="fa-solid fa-italic p-2"></i></button>
+                    <button id="underline" class="m-2"><i class="fa-solid fa-underline p-2"></i></button>
+                </div>
+                <div>
+                    <button id="left" class="m-2"><i class="fa-solid fa-align-left p-2"></i></button>
+                    <button id="center" class="m-2"><i class="fa-solid fa-align-center p-2"></i></button>
+                    <button id="right" class="m-2"><i class="fa-solid fa-align-right p-2"></i></button>
+                    <button id="justify" class="m-2"><i class="fa-solid fa-align-justify p-2"></i></button>
+                </div>
+                <div>
+                    <input class="w-20 border-2 pl-1"  type="number" name="" id="font-size" value="16">
+                    <button id="capital" class="p-2 m-2 font-semibold text-2xl">Aa</button>
+                    <input type="color" name="" id="color">
+                </div>
+            </div>
+            <textarea name="" id="text" class="h-4/5 w-full border-2 p-2 resize-none"></textarea>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center my-3">&copy;All Right Reserve By  Sahriar Rahman Shovo</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
